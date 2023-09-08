@@ -1,0 +1,14 @@
+import "sys.fcode"
+
+name = ""
+password = ""
+
+func constructor(name, password) {
+    this.name = name
+    this.password = password
+}
+
+func tryLogin(name, password) {
+    this.sys.writeLn("Try infos: " + name + " " + password)
+    this.sys.writeLn("True infos: " + this.name + " " + this.password)
+}

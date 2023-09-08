@@ -1,0 +1,7 @@
+import "sys.py"
+
+write = sys.w
+writeLn = sys.wL
+readLn = sys.rL
+
+delete sys

@@ -1,0 +1,8 @@
+import "sys.fcode"
+import "user.fcode"
+
+first = user("Saltuk" "1234")
+second = user("Said" "9876")
+
+first.tryLogin("Mehmet" "45456")
+second.tryLogin("Pamuk" "sgkudfjn")
